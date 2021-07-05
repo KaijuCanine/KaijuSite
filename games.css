@@ -16,6 +16,7 @@ body {
 
 .left-side {
     display: flex;
+
 }
 
 .nav-wrapper > .left-side > div {
@@ -67,7 +68,7 @@ body {
 }
 
 .portfolio-img-background {
-    height: 400px;
+    height: 350px;
     width: 100%;
     background-size: cover;
     background-position: center;
@@ -92,24 +93,13 @@ body {
     margin-bottom: 20px;
 }
 
-.img-text-wrapper .subtitle {
+.img-text-wrapper .tyranttitle {
     transition: 1s;
     font-weight: 600;
     color: transparent;
 }
 
-.img-text-wrapper:hover .subtitle {
+.img-text-wrapper:hover .tyranttitle {
     font-weight: 600;
-    color: rgb(27, 67, 210);
-}
-
-.img-text-wrapper .skoottitle {
-    transition: 1s;
-    font-weight: 600;
-    color: transparent;
-}
-
-.img-text-wrapper:hover .skoottitle {
-    font-weight: 600;
-    color: rgb(145, 35, 35);
+    color: rgb(220, 110, 40);
 }
